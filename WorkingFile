@@ -19,7 +19,7 @@ int main()
 			x=B/A;
 			cout<<"  x=  "<<x;
 		}
-		else {if (B==0)
+		else {if (B>0)
 			{cout<<"x-юбое число";
 			else { if(B!=0)
 			cout<<"решений нет";
