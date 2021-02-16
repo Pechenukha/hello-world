@@ -1,1 +1,32 @@
-Editing from Pechenukha 13:00
+//Стандартный шаблон программы
+#include "stdafx.h"
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main()
+
+{
+	//Изменение кодировки консоли
+	system("chcp 1251>nul");
+	// Отображение сообщения в консоли
+		double A,B,x;
+		cout << "  Введите A";
+		cin >> A;
+		cout <<endl<< "  Введите B";
+		cin >> B;
+		if(A!=0){
+			x=B/A;
+			cout<<"  x=  "<<x;
+		}
+		else {if (B==0)
+			{cout<<"x-юбое число";
+			else { if(B!=0)
+			cout<<"решений нет";
+		}
+		}
+		}
+	//Задержка консольного окна
+	system("pause>nul");
+	return 0;
+}
